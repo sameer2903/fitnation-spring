@@ -18,7 +18,7 @@ public class Plan {
     @ManyToMany(mappedBy = "plans")
     @JsonIgnore
     private Set<User> users = new HashSet<>();
-
+  
     // Constructors
     public Plan() {
         super();
